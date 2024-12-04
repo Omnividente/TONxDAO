@@ -131,7 +131,7 @@ python3 -m pip install -r requirements.txt --break-system-packages
 ```
 Введите (`query_id=... /user=...`) в файл data.txt. Каждый новый токен с новой строки.
 
-Как найти [query_id=... /user=..](https://t.me/secretniy)
+
 
 Чтобы изменить файл в bash, используйте команду `nano data.txt`
 
