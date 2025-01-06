@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/8d695ee7-fce7-4c3f-ac8b-11a6785c9c24)
+
 # Table of Languages
 - [English](#English)
 - [Русский](#Русский)
@@ -70,7 +72,7 @@ To change a config file in bash use the command `nano config.json`
 
 
 ## 🌎 About Proxy
-
+ONLY socks5 !!!
 You can add your proxy list in `proxies.txt` and proxy format is like example below :
 
 Format :
@@ -173,7 +175,7 @@ python bot.py
 ```
 
 ## 🌎 О прокси
-
+Только socks5 прокси !!!
 Формат:
 
 ```
