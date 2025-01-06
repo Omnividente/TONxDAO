@@ -22,6 +22,7 @@ apt install -y git python3 python3-pip
 git clone https://github.com/Omnividente/tonxdao.git
 cd tonxdao-bot/
 python3 -m pip install -r requirements.txt
+```
 Enter you (`query_id=... /user=...`) in file data.txt. Each new token from a new line.
 
 To change a file in bash use the command `nano data.txt`
@@ -60,7 +61,7 @@ To change a config file in bash use the command `nano config.json`
    python -m pip install -r requirements.txt
    ```
 
-5. Edit `data.txt`, input you data token in `data.txt`, find you token in How to find [query_id=... /user=..](https://t.me/secretniy). One line for one data account, if you want add you second account add in new line!
+5. Edit `data.txt`, input you data token in `data.txt`, find you token in How to find. One line for one data account, if you want add you second account add in new line!
 
 6. execute the main program 
    ```
@@ -88,6 +89,12 @@ user:pass:127.0.0.1:6969
 
 - Get auth data (`query_id=... /user=...`) in the `Application` tab in DevTools.
 - Auto features: Change `false` to `true` in the `config.json` file.
+- Time interval: Change in settings.txt
+```
+interval_1=06:50-07:15
+interval_2=15:45-16:10
+interval_3=00:05-00:20
+```
 
 
 
@@ -111,7 +118,7 @@ user:pass:127.0.0.1:6969
 | Авто Check-in | Вкл./Выкл. | Ежедневный вход для получения очков и игровых билетов |
 | Автоматическое выполнение задач | Вкл./Выкл. | Выполнение задач |
 | Автоматический фарм | Вкл./Выкл. | Фарм очков если есть энергия |
-| Временные интервалы запуска фарма
+| Автоматическое получения времени Мегафарма и настройка интервалов.
 
 
 ## 🧑‍🔧 Как установить в Linux
@@ -124,7 +131,7 @@ python3 -m pip install -r requirements.txt --break-system-packages
 ```
 Введите (`query_id=... /user=...`) в файл data.txt. Каждый новый токен с новой строки.
 
-Как найти [query_id=... /user=..](https://t.me/secretniy)
+
 
 Чтобы изменить файл в bash, используйте команду `nano data.txt`
 
@@ -139,6 +146,13 @@ python3 -m pip install -r requirements.txt --break-system-packages
 
 Чтобы изменить файл конфигурации в bash, используйте команду `nano config.json`
 
+Добавьте временные интервалы запуска фарма по желанию.
+Чтобы изменить создайте\отредактируйте файлы settings.txt
+```
+interval_1=06:50-07:15
+interval_2=15:45-16:10
+interval_3=00:05-00:20
+```
 ## 👩‍🔧 Как установить в Windows
 #Windows
 1. Убедитесь, что на вашем компьютере установлены python и git.
@@ -148,7 +162,7 @@ python site : [https://python.org](https://python.org)
 git site : [https://git-scm.com/](https://git-scm.com/)
 
 2. Клонируйте этот репозиторий
-```shell
+```
 git clone https://github.com/Omnividente/tonxdao.git
 ```
 
@@ -174,13 +188,13 @@ python bot.py
 Формат:
 
 ```
-http://user:pass:host:port
+socks5://login:password@ip:port
 ```
 
 Пример:
 
 ```
-user:pass:127.0.0.1:6969
+socks5://user:pass@127.0.0.1:6969
 ```
 
 
