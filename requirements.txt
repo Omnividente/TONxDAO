@@ -1,2 +1,10 @@
-smart-airdrop-claimer
+fake-useragent
+requests
+websockets
+colorama
+pytz
+tzlocal
+keyboard
 websocket-client
+requests[socks]
+pysocks
